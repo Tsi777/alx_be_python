@@ -1,15 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str):
-    """
-    Perform basic arithmetic operations on two numbers.
-    
-    Args:
-        num1 (float): First number
-        num2 (float): Second number  
-        operation (str): Operation to perform - 'add', 'subtract', 'multiply', or 'divide'
-    
-    Returns:
-        float or str: Result of the operation, or error message for division by zero
-    """
+def perform_operation(num1, num2, operation):
     operation = operation.lower().strip()
     
     if operation == "add":
